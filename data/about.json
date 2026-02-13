@@ -8,7 +8,7 @@
     },
     {
       "title": "What I Do",
-      "content": "I specialize in building modern web applications using React, Next.js, Node.js, and TypeScript. I'm passionate about developer experience, performance optimization, and creating intuitive user interfaces."
+      "content": "I specialize in building modern web applications using React, Node.js, Springboot and TypeScript. I'm passionate about developer experience, performance optimization, and creating intuitive user interfaces."
     },
     {
       "title": "Beyond Code",
@@ -17,22 +17,22 @@
   ],
   "timeline": [
     {
-      "year": "2024",
-      "title": "Senior Full-Stack Developer",
+      "year": "2026",
+      "title": "Intern Software Engineer at Senzmate (pvt) Ltd.",
       "description": "Leading frontend architecture and mentoring junior developers."
     },
     {
-      "year": "2022",
+      "year": "2024",
       "title": "Full-Stack Developer",
-      "description": "Built scalable web applications with React, Next.js, and Node.js."
+      "description": "Built scalable web applications with React and Node.js."
+    },
+    {
+      "year": "2022",
+      "title": "Programmer",
+      "description": "Focused on building problem solving python scripts"
     },
     {
       "year": "2020",
-      "title": "Frontend Developer",
-      "description": "Focused on building responsive, accessible user interfaces."
-    },
-    {
-      "year": "2018",
       "title": "Started Coding",
       "description": "Wrote my first lines of code and discovered my passion for development."
     }
