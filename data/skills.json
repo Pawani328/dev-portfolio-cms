@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "skills": [
+        { "name": "React", "level": 95, "icon": "SiReact" },
+        { "name": "Next.js", "level": 90, "icon": "SiNextdotjs" },
+        { "name": "TypeScript", "level": 90, "icon": "SiTypescript" },
+        { "name": "Tailwind CSS", "level": 92, "icon": "SiTailwindcss" },
+        { "name": "HTML/CSS", "level": 95, "icon": "SiHtml5" }
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        { "name": "Node.js", "level": 88, "icon": "SiNodedotjs" },
+        { "name": "Python", "level": 80, "icon": "SiPython" },
+        { "name": "PostgreSQL", "level": 78, "icon": "SiPostgresql" },
+        { "name": "MongoDB", "level": 75, "icon": "SiMongodb" },
+        { "name": "REST APIs", "level": 90, "icon": "SiPostman" }
+      ]
+    },
+    {
+      "name": "Tools & DevOps",
+      "skills": [
+        { "name": "Git", "level": 92, "icon": "SiGit" },
+        { "name": "Docker", "level": 72, "icon": "SiDocker" },
+        { "name": "VS Code", "level": 95, "icon": "SiVisualstudiocode" },
+        { "name": "Vercel", "level": 88, "icon": "SiVercel" },
+        { "name": "Figma", "level": 70, "icon": "SiFigma" }
+      ]
+    }
+  ]
+}

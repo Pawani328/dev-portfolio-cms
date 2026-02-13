@@ -1,0 +1,40 @@
+{
+  "headline": "About Me",
+  "intro": "I'm a passionate full-stack developer with a love for building products that make a difference. With years of experience across the stack, I bring ideas to life through clean, maintainable code.",
+  "sections": [
+    {
+      "title": "My Journey",
+      "content": "I started my coding journey building simple websites and quickly fell in love with the craft. Over the years, I've worked with startups and enterprises alike, always focusing on delivering impactful solutions."
+    },
+    {
+      "title": "What I Do",
+      "content": "I specialize in building modern web applications using React, Next.js, Node.js, and TypeScript. I'm passionate about developer experience, performance optimization, and creating intuitive user interfaces."
+    },
+    {
+      "title": "Beyond Code",
+      "content": "When I'm not coding, you'll find me exploring new technologies, contributing to open source, writing technical blog posts, or enjoying a good cup of coffee while brainstorming the next big idea."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2024",
+      "title": "Senior Full-Stack Developer",
+      "description": "Leading frontend architecture and mentoring junior developers."
+    },
+    {
+      "year": "2022",
+      "title": "Full-Stack Developer",
+      "description": "Built scalable web applications with React, Next.js, and Node.js."
+    },
+    {
+      "year": "2020",
+      "title": "Frontend Developer",
+      "description": "Focused on building responsive, accessible user interfaces."
+    },
+    {
+      "year": "2018",
+      "title": "Started Coding",
+      "description": "Wrote my first lines of code and discovered my passion for development."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "Getting Started with Next.js 14 App Router",
+      "slug": "getting-started-nextjs-14",
+      "content": "## Introduction\n\nNext.js 14 introduced the App Router as the recommended way to build applications. In this post, we'll explore the key features and how to get started.\n\n## Why App Router?\n\nThe App Router brings several improvements:\n\n- **Server Components** by default for better performance\n- **Nested Layouts** for shared UI across routes\n- **Streaming** for progressive page rendering\n- **Built-in SEO** support with the Metadata API\n\n## Getting Started\n\nCreate a new Next.js project:\n\n```bash\nnpx create-next-app@latest my-app --typescript --tailwind --app\n```\n\n## File-Based Routing\n\nWith the App Router, every folder in `app/` becomes a route. Create a `page.tsx` file inside to make it accessible.\n\n## Server vs Client Components\n\nBy default, all components in the App Router are Server Components. Add `'use client'` at the top of a file to make it a Client Component.\n\n## Conclusion\n\nThe App Router is a powerful paradigm shift that makes Next.js applications faster and more maintainable. Give it a try!",
+      "tags": ["Next.js", "React", "TypeScript"],
+      "publishedAt": "2024-12-15",
+      "excerpt": "Learn the basics of Next.js 14 App Router and how to build modern web applications with Server Components, nested layouts, and more."
+    },
+    {
+      "title": "TypeScript Tips for Clean Code",
+      "slug": "typescript-tips-clean-code",
+      "content": "## Writing Better TypeScript\n\nTypeScript helps us write safer code, but there are patterns that make it even better.\n\n## 1. Use Discriminated Unions\n\n```typescript\ntype Result<T> = \n  | { success: true; data: T }\n  | { success: false; error: string };\n```\n\n## 2. Prefer `unknown` over `any`\n\n```typescript\n// Bad\nfunction parse(input: any) { ... }\n\n// Good  \nfunction parse(input: unknown) { ... }\n```\n\n## 3. Use Template Literal Types\n\n```typescript\ntype EventName = `on${Capitalize<string>}`;\n```\n\n## 4. Const Assertions\n\n```typescript\nconst colors = ['red', 'green', 'blue'] as const;\ntype Color = typeof colors[number]; // 'red' | 'green' | 'blue'\n```\n\n## 5. Utility Types Are Your Friends\n\nLearn and use `Pick`, `Omit`, `Partial`, `Required`, and `Record` extensively.\n\n## Conclusion\n\nThese patterns will make your TypeScript code more type-safe and maintainable.",
+      "tags": ["TypeScript", "Clean Code", "Best Practices"],
+      "publishedAt": "2024-11-20",
+      "excerpt": "Practical TypeScript tips and patterns for writing cleaner, more maintainable code in your projects."
+    },
+    {
+      "title": "Building a Portfolio That Stands Out",
+      "slug": "building-portfolio-stands-out",
+      "content": "## Why Your Portfolio Matters\n\nAs developers, our portfolio is often the first impression we make. Here's how to make it count.\n\n## Key Elements\n\n### 1. Show Real Projects\nDon't just list technologies — demonstrate them in action. Show projects with live demos and clean code.\n\n### 2. Tell Your Story\nYour About page should convey personality, not just credentials. What drives you? What problems do you love solving?\n\n### 3. Keep It Fast\nNothing says \"I'm a good developer\" like a portfolio that loads instantly. Optimize images, lazy load components, and use modern frameworks.\n\n### 4. Mobile First\nMany recruiters will view your site on their phone first. Make sure it looks great on all devices.\n\n### 5. Add a Blog\nWriting about what you learn demonstrates depth of knowledge and communication skills.\n\n## Tech Stack Recommendations\n\n- **Next.js** for the framework\n- **Tailwind CSS** for styling\n- **Vercel** for deployment\n- **Framer Motion** for animations\n\n## Conclusion\n\nYour portfolio is a reflection of you as a developer. Make it thoughtful, performant, and uniquely yours.",
+      "tags": ["Career", "Portfolio", "Web Development"],
+      "publishedAt": "2024-10-05",
+      "excerpt": "Tips and strategies for building a developer portfolio that makes a lasting impression on recruiters and clients."
+    }
+  ]
+}

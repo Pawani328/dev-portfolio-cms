@@ -1,0 +1,12 @@
+{
+  "name": "Jane Developer",
+  "title": "Full-Stack Developer & Creative Technologist",
+  "hero": "I build beautiful, performant web applications with modern technologies. Passionate about clean code, great UX, and making the web a better place.",
+  "email": "jane@example.com",
+  "resumePath": "/resume.pdf",
+  "github": "https://github.com/octocat",
+  "linkedin": "https://linkedin.com/in/janedeveloper",
+  "facebook": "https://facebook.com/janedeveloper",
+  "twitter": "https://twitter.com/janedeveloper",
+  "featuredProjects": []
+}
