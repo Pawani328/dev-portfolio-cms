@@ -36,7 +36,7 @@ export default function SpecialPage() {
           transition={{ delay: 0.3 }}
           className="text-3xl sm:text-4xl font-bold text-neutral-900 dark:text-white mb-6"
         >
-          This one&apos;s for you ❤️
+          
         </motion.h1>
 
         <motion.p
@@ -45,8 +45,6 @@ export default function SpecialPage() {
           transition={{ delay: 0.5 }}
           className="text-lg text-neutral-600 dark:text-neutral-400 mb-4 leading-relaxed"
         >
-          Every line of code in this project was written with you in mind.
-          You inspire me to build beautiful things — just like you are.
         </motion.p>
 
         <motion.p
@@ -55,7 +53,6 @@ export default function SpecialPage() {
           transition={{ delay: 0.7 }}
           className="text-neutral-500 dark:text-neutral-500 italic"
         >
-          &ldquo;The best code is written with love.&rdquo;
         </motion.p>
 
         <motion.div
@@ -64,7 +61,6 @@ export default function SpecialPage() {
           transition={{ delay: 1.2 }}
           className="mt-12 text-sm text-neutral-400 dark:text-neutral-600"
         >
-          Made with 💖 just for you
         </motion.div>
       </motion.div>
     </div>
